@@ -27,6 +27,7 @@ weight_type_list = ["data", "default", "noise"]
 seed_list = [1, 2]
 num_steps_list = [30, 60, 100, 200, 1000]
 iter_num = 10000
+print(f"Number of iterations: {iter_num}")
 num_method = "ei"
 c_vec = np.sqrt(np.array([0.0, 0.5, 1.0, 1.5, 2.0, 2.5]))
 n = 10
