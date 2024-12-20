@@ -24,8 +24,8 @@ from mnist_load_model import *
 #############################################
 # Parameters and setup
 weight_type_list = ["data", "default", "noise"]
-seed_list = [1, 2]
-num_steps_list = [30, 60, 100, 200, 1000]
+seed_list = []
+num_steps_list = [1000]
 iter_num = 10000
 print(f"Number of iterations: {iter_num}")
 num_method = "ei"
@@ -46,7 +46,7 @@ data = torch.zeros(
 for i in range(len(weight_type_list)):
     for j in range(len(seed_list)):
         for l in range(len(num_steps_list)):
-            print((i, j, l))
+            print((i, j))
             for c_idx in tqdm(range(len(c_vec))):
                 weight_type = weight_type_list[i]
                 seed = seed_list[j]
