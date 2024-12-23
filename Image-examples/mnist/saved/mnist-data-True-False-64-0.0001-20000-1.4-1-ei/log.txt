@@ -1,0 +1,2 @@
+2024-12-21 10:20:19.537294	folder path: saved/mnist-data-True-False-64-0.0001-20000-1.4-1-ei
+2024-12-21 10:39:55.267678	Finished training

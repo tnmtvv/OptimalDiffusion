@@ -1,0 +1,7 @@
+2024-12-22 06:54:36.283337	folder path: saved/mnist-default-True-False-64-0.0001-7000-1.4-0-ei
+2024-12-22 07:05:08.125257	Finished training
+2024-12-22 07:05:18.947898	folder path: saved/mnist-default-True-False-64-0.0001-7000-1.4-0-ei
+2024-12-22 07:05:33.844321	folder path: saved/mnist-default-True-False-64-0.0001-7000-1.4-0-ei
+2024-12-22 07:05:48.277409	folder path: saved/mnist-default-True-False-64-0.0001-7000-1.4-0-ei
+2024-12-22 07:06:02.581515	folder path: saved/mnist-default-True-False-64-0.0001-7000-1.4-0-ei
+2024-12-22 07:06:17.025619	folder path: saved/mnist-default-True-False-64-0.0001-7000-1.4-0-ei

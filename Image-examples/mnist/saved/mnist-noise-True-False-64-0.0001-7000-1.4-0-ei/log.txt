@@ -1,0 +1,7 @@
+2024-12-22 07:06:31.470488	folder path: saved/mnist-noise-True-False-64-0.0001-7000-1.4-0-ei
+2024-12-22 07:17:03.443067	Finished training
+2024-12-22 07:17:14.197930	folder path: saved/mnist-noise-True-False-64-0.0001-7000-1.4-0-ei
+2024-12-22 07:17:28.921420	folder path: saved/mnist-noise-True-False-64-0.0001-7000-1.4-0-ei
+2024-12-22 07:17:43.314143	folder path: saved/mnist-noise-True-False-64-0.0001-7000-1.4-0-ei
+2024-12-22 07:17:57.655051	folder path: saved/mnist-noise-True-False-64-0.0001-7000-1.4-0-ei
+2024-12-22 07:18:12.086361	folder path: saved/mnist-noise-True-False-64-0.0001-7000-1.4-0-ei

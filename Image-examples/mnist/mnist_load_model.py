@@ -29,7 +29,7 @@ def load_model(
 
     if device == None:
         # use default configuration
-        device = torch.device("cuda:3" if torch.cuda.is_available() else "cpu")
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     torch.cuda.empty_cache()
 
     with open("mnist.yaml", "r") as file:

@@ -24,9 +24,9 @@ from mnist_load_model import *
 #############################################
 # Parameters and setup
 weight_type_list = ["data", "default", "noise"]
-seed_list = []
+seed_list = [0]
 num_steps_list = [1000]
-iter_num = 10000
+iter_num = 7000
 print(f"Number of iterations: {iter_num}")
 num_method = "ei"
 c_vec = np.sqrt(np.array([0.0, 0.5, 1.0, 1.5, 2.0, 2.5]))
@@ -78,12 +78,12 @@ for i in range(len(weight_type_list)):
 #############################################
 # Effect of weight
 c_idx = 0  # ODE
-num_step_idx = 4
+num_step_idx = 0
 
 print("{:2.1f}".format(c_vec[c_idx] ** 2))
 print(num_steps_list[num_step_idx])
 
-for seed_idx in [0, 1]:
+for seed_idx in [0]:
     plt.figure(figsize=(9, 3))
     for i in range(len(weight_type_list)):
         plt.subplot(1, 3, i + 1)
@@ -95,7 +95,7 @@ for seed_idx in [0, 1]:
     plt.savefig(
         "../../test_assets/MNIST_ODE_with_different_training"
         + "{:d}-{:d}".format(seed_list[seed_idx], num_steps_list[num_step_idx])
-        + ".eps"
+        + ".pdf"
     )
 
 #############################################
@@ -125,5 +125,5 @@ for weight_type_idx in [0, 1, 2]:  #'default'
         plt.savefig(
             "../../test_assets/MNIST_effect_of_c_"
             + "{:s}_{:d}".format(weight_type_list[weight_type_idx], seed_list[seed_idx])
-            + ".eps"
-        )
+            + ".pdf"
+            )

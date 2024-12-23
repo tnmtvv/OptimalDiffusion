@@ -1,0 +1,1 @@
+2024-12-22 06:41:43.803610	folder path: saved/mnist-data-True-False-64-0.0001-10000-1.4-0-ei
